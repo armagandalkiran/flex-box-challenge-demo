@@ -108,6 +108,8 @@ export function FlexboxDemo() {
             </dd>
 
             <dt><code className="docs__code">text-overflow: ellipsis</code></dt>
+            <p className="docs__warning">⚠️ Important: Text truncation only works on block-level elements (like div or p). 
+            Inline elements like span will not truncate, even with the correct CSS properties!</p>
             <dd>Adds an ellipsis (...) when text overflows. Requires:
               <ul>
                 <li>white-space: nowrap to prevent text wrapping</li>
