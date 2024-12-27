@@ -97,6 +97,16 @@ export function FlexboxDemo() {
               </ul>
             </dd>
 
+            <dt><code className="docs__code">max-width: fit-content</code></dt>
+            <dd>Controls the maximum width of flex items:
+              <ul>
+                <li>Prevents items from growing beyond their content width</li>
+                <li>Short content items stay compact while long ones expand</li>
+                <li>Works with flex: 1 to create natural, content-based layouts</li>
+                <li>Ensures optimal space distribution based on actual content</li>
+              </ul>
+            </dd>
+
             <dt><code className="docs__code">flex-shrink: 0</code></dt>
             <dd>Prevents an item from shrinking below its initial size:
               <ul>
